@@ -1,0 +1,13 @@
+
+
+@font-face {
+    font-family: 'BwModelicaLGC';
+    src: url('../fonts/BwModelicaLGC/BwModelicaLGC-Regular.eot');
+    src: url('../fonts/BwModelicaLGC/BwModelicaLGC-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BwModelicaLGC/BwModelicaLGC-Regular.woff') format('woff'),
+         url('../fonts/BwModelicaLGC/BwModelicaLGC-Regular.ttf') format('truetype'),
+         url('../fonts/BwModelicaLGC/BwModelicaLGC-Regular.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

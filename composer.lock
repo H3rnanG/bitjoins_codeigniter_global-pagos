@@ -1,0 +1,119 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3ca63928c12f7de18792dd1487468a06",
+    "packages": [
+        {
+            "name": "khipu/khipu-api-client",
+            "version": "2.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/khipu/khipu-api-php-client.git",
+                "reference": "bef36baf4026884b45e5849a7875f6b5e9c462a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/khipu/khipu-api-php-client/zipball/bef36baf4026884b45e5849a7875f6b5e9c462a5",
+                "reference": "bef36baf4026884b45e5849a7875f6b5e9c462a5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "~0.6.1",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Khipu\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "khipu",
+                    "homepage": "https://github.com/khipu/khipu-api-php-client"
+                }
+            ],
+            "homepage": "https://github.com/khipu/khipu-api-php-client",
+            "keywords": [
+                "api",
+                "khipu",
+                "php",
+                "sdk"
+            ],
+            "time": "2019-05-27T14:21:10+00:00"
+        },
+        {
+            "name": "twilio/sdk",
+            "version": "6.10.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twilio/twilio-php.git",
+                "reference": "703fe5dfb8ae7e862dfa907e88ca289e4a7666b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/703fe5dfb8ae7e862dfa907e88ca289e4a7666b9",
+                "reference": "703fe5dfb8ae7e862dfa907e88ca289e4a7666b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "^6.3 || ^7.0",
+                "phpunit/phpunit": ">=4.5",
+                "theseer/phpdox": "^0.12.0"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "An HTTP client to execute the API requests"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Twilio\\": "src/Twilio/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Twilio API Team",
+                    "email": "api@twilio.com"
+                }
+            ],
+            "description": "A PHP wrapper for Twilio's API",
+            "homepage": "http://github.com/twilio/twilio-php",
+            "keywords": [
+                "api",
+                "sms",
+                "twilio"
+            ],
+            "time": "2020-09-16T21:25:06+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

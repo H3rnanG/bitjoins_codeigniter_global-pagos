@@ -1,0 +1,97 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+.navbar .navbar-brand{
+	padding: 1px 0px 1px 0px;
+}
+
+.ls-carga{
+	list-style: none;
+	margin: 0px;
+}
+
+.it-carga{
+	padding: 5px;
+	background: #FFF;
+	border: 1px solid #ececec;
+	min-height: 200px;
+	border-radius: 2px;
+	color: #777;
+}
+
+.it-cg-origen{
+	
+}
+
+.it-cg-orgcod{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.it-cg-orgdesc{
+	font-size: 1em;
+}
+
+.it-cg-orgpais{
+	font-size: 0.8em;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.it-cg-pres{
+	font-size: 1.5em;
+}
+
+.it-cg-det{
+	border-right: 1px solid #E3E3E3;
+	border-left: 1px solid #E3E3E3;
+}
+
+.it-cg-via-desc{
+	margin-left: 10px;
+}
+
+.linea-up{
+	border-left: 1px solid #777;
+    width: 1px;
+    height: 30px;
+    margin-left: 12px;
+    margin-top: -20px;
+}
+
+.linea-down{
+	border-left: 1px solid #777;
+    width: 1px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: 2px;
+}
+
+.flecha-down{
+	display: inline-block;
+    margin-right: 10px;
+    margin-left: 8px;
+}
+
+.panel-heading .accordion-toggle{
+	display: block;
+}
+
+.chosen-container{
+	width: 100% !important;
+}
+
+.ck-editor__editable {
+    min-height: 400px;
+}
+
+.profile-picture, .editableform .control-group, .editable-image, .editable-image .ace-file-input, .editable-buttons{
+	width: 100% !important;
+}
+
+.editable-buttons .btn{
+	width: 125px !important;
+}

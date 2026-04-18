@@ -1,0 +1,15 @@
+/*
+ * Apps Publics structure
+ */
+
+.error{
+	color: red;
+}
+
+.editable-buttons .btn{
+	width: auto;
+}
+
+.ace-file-input{
+	min-width: 350px;
+}

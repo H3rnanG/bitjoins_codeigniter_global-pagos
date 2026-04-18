@@ -1,0 +1,292 @@
+.login-layout{
+    background-color: #FFF !important;
+}
+.buttons-print, .buttons-html5, .buttons-page-length{
+	display: inline-block;
+	background-image: none !important;
+    border: 5px solid #FFF;
+    border-radius: 0;
+    box-shadow: none !important;
+    -webkit-transition: background-color 0.15s, border-color 0.15s, opacity 0.15s;
+    -o-transition: background-color 0.15s, border-color 0.15s, opacity 0.15s;
+    transition: background-color 0.15s, border-color 0.15s, opacity 0.15s;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0;
+    position: relative;
+    color: #FFF;
+    margin-right: 5px;
+}
+
+.buttons-print{
+    background-color: #428bca !important;
+    border-color: #428bca;
+}
+
+.buttons-html5{
+    background-color: #1fa67a !important;
+    border-color: #1fa67a;
+    float: right;
+}
+
+.buttons-page-length{
+    background-color: #246855 !important;
+    border-color: #246855;
+    float: left;
+}
+
+.buttons-print:hover{
+	color: #ffffff;
+    background-color: #1b6aaa !important;
+    border-color: #428bca;
+}
+
+.dataTables_processing{
+    font-size: 1.2em;
+    /*background: url('../images/ajax-loader.gif') no-repeat left center;*/
+    height: 42px;
+    line-height: 42px;
+    padding: 3px 5px 3px 48px;
+}
+
+.pizarra{
+    /*display: none;*/
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.form-box { padding-top: 40px; }
+
+.f1 {
+    padding: 25px; background: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+.f1 h3 { margin-top: 0; margin-bottom: 5px; text-transform: uppercase; }
+
+.f1_steps { overflow: hidden; position: relative; margin-top: 20px; }
+
+.f1_progress { position: absolute; top: 24px; left: 0; width: 100%; height: 1px; background: #585858; }
+.f1_progress-line { position: absolute; top: 0; left: 0; height: 1px; background: #f28653; }
+
+.f1_step { position: relative; float: left; width: 20%; padding: 0 5px; }
+
+.f1_step-icon {
+    display: inline-block; width: 40px; height: 40px; margin-top: 4px; background: #585858;
+    font-size: 16px; color: #fff; line-height: 40px;
+    -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+    text-align: center;
+}
+.f1_step.activated .f1_step-icon {
+    background: #fff; border: 1px solid #f28653; color: #f28653; line-height: 38px;
+}
+.f1_step.active .f1_step-icon {
+    width: 48px; height: 48px; margin-top: 0; background: #f28653; font-size: 22px; line-height: 48px;
+}
+
+.f1_step p { color: #585858; }
+.f1_step.activated p { color: #f28653; }
+.f1_step.active p { color: #f28653; }
+
+.f1 fieldset { display: none; text-align: left; }
+
+.f1_buttons { text-align: right; }
+
+.f1 .input-error { border-color: #f28653; }
+
+.op-label, .op-label{
+    min-height: 50px;
+}
+
+.panel-rubro{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 415px) {
+    
+    h1, h2 { font-size: 32px; }
+    
+    .f1 { padding-bottom: 20px; }
+    .f1_buttons button { margin-bottom: 5px; }
+
+}
+
+
+/******** ***********/
+
+.navbar .navbar-brand{
+    padding: 1px 0px 1px 0px;
+}
+
+.ls-carga{
+    list-style: none;
+    margin: 0px;
+}
+
+.it-carga{
+    padding: 5px;
+    background: #FFF;
+    border: 1px solid #ececec;
+    min-height: 200px;
+    border-radius: 2px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.it-cg-origen{
+    
+}
+
+.it-cg-orgcod, .it-cg-descod{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.it-cg-orgdesc, .it-cg-desdesc{
+    font-size: 1em;
+}
+
+.it-cg-orgpais, .it-cg-despais{
+    font-size: 0.8em;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.it-cg-pres{
+    font-size: 1.5em;
+}
+
+.it-cg-det{
+    border-right: 1px solid #E3E3E3;
+    border-left: 1px solid #E3E3E3;
+}
+
+.it-cg-via-desc{
+    margin-left: 10px;
+}
+
+.linea-up{
+    border-left: 1px solid #777;
+    width: 1px;
+    height: 30px;
+    margin-left: 14px;
+    margin-top: -20px;
+}
+
+.linea-down{
+    border-left: 1px solid #777;
+    width: 1px;
+    height: 30px;
+    margin-left: 14px;
+    margin-bottom: 2px;
+}
+
+.flecha-down{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/******** ***********/
+.panel-gastos .panel-heading{
+    padding: 0px;
+}
+
+.panel-gastos .panel-arrow{
+    padding: 5px;
+    width: 50px;
+    color: #FFF;
+    background: #2e8965;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.panel-gastos .panel-title{
+    padding: 15px;
+    color: #FFF;
+}
+
+.panel-monto{
+
+}
+
+.panel-monto{
+    font-size: 16px;
+    background: #ced1d6;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 5px;
+    min-width: 120px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.panel-gastos>.panel-heading a{
+    display: block;
+    height: 60px;
+}
+
+.panel-gastos>.panel-heading>.accordion-toggle{
+    background: #0641a8;
+}
+
+.panel-gastos>.panel-heading>.collapsed{
+    background: #002C5B !important;
+}
+
+.panel-group>.panel-heading+.panel-collapse>.panel-body{
+    border: 1px solid #ececec;
+    border-top: 0px;
+}
+
+.panel-sub>.panel-heading{
+    background-color: #ddd;
+    padding: 5px 0px;
+}
+
+.it-carga .accordion-toggle{ display: block; }
+
+.accordion-style2.panel-group .panel-heading .accordion-toggle.collapsed, 
+.accordion-style2.panel-group .panel-heading .accordion-toggle.collapsed:hover,
+.accordion-style2.panel-group .panel-heading .accordion-toggle:hover,
+.accordion-style2.panel-group .panel-heading .accordion-toggle{
+    background-color: #ddd;
+    border: 0px;
+    text-align: center;
+    display: block;
+}
+
+/*.panel-gastos .collapsed .*/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media (min-width: 320px) {
+  
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

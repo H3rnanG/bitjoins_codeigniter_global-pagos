@@ -1,0 +1,6 @@
+{
+	"require": {
+		"khipu/khipu-api-client": "^2.7",
+		"twilio/sdk": "^6.10" 
+	}
+}
