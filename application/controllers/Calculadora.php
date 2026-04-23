@@ -119,9 +119,9 @@ class Calculadora extends CI_Controller {
 				$arr = json_decode($json);
 
 				$data_ip = $ip;
-				$data_pais = Locale::getDisplayRegion('-'.$arr->country,'es'); 
-				$data_ciudad = $arr->city;
-				$data_latlon = $arr->loc;
+				$data_pais = isset($arr->country) ? Locale::getDisplayRegion('-'.$arr->country,'es') : 'Unknown'; 
+				$data_ciudad = isset($arr->city) ? $arr->city : 'Unknown';
+				$data_latlon = isset($arr->loc) ? $arr->loc : '0,0';
 				$fecha_hora = date('Y-m-d G:i:s');
 
 				$arr_login_ses = array('ip' => $data_ip,

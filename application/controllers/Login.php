@@ -105,9 +105,9 @@ class Login extends CI_Controller {
 			$arr = json_decode($json);
 
 			$data_ip = $ip;
-			$data_pais = Locale::getDisplayRegion('-'.$arr->country,'es'); 
-			$data_ciudad = $arr->city;
-			$data_latlon = $arr->loc;
+			$data_pais = isset($arr->country) ? Locale::getDisplayRegion('-'.$arr->country,'es') : 'Unknown'; 
+			$data_ciudad = isset($arr->city) ? $arr->city : 'Unknown';
+			$data_latlon = isset($arr->loc) ? $arr->loc : '0,0';
 
 			$this->db->from('administrador');
 			$this->db->select('id,usuario,nombre,tipo,dash,estado');
